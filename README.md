@@ -70,10 +70,10 @@ fetch_strategy: oldest
 # control the accuracy of ML
 ob_acc: 1
 # control har far procedure OB find obsolete items.
-opt_len: 10
+opt_len: 5
 # s
 staleness_bound: 10
-# Control system on or off. You must correctly install and configure the Memcache and Hbase; otherwise
+# Control system on or off. You must correctly install and configure the Redis(Memcached) and Hbase; otherwise
 # an error will be reported. You may set it to fasle to check the #dbread result, refers to 'cost'.
 sys_test: false
 # the current input model, only work in ML-related task
