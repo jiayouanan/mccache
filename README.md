@@ -39,7 +39,8 @@ python system_test.py
 ```
 
 The result should be like this：
-![image](https://user-images.githubusercontent.com/42060610/170955423-3fe8b1d2-0568-4da2-a87a-cead1c8fbfcb.png)
+![image](https://user-images.githubusercontent.com/42060610/179769591-9840af4a-045f-4842-a8a4-739aae93230c.png)
+
 
 We next describe the parameter file.  **All the parameters of our expts can be turned in `config/sysTest.yaml` folder for replication of experimental results**. 
 
