@@ -1,0 +1,13 @@
+ML_model_root: ML/model/
+alg_name: Belady
+batch_size: 1000
+cache_scheme: LCC
+csize: 0.2
+dataset_name: Wiki_WrtFreq0.5_thresh10000_rnd0_RSize8_WSize8_Len5000
+dataset_root: data/YCSB_new
+fetch_strategy: oldest
+ob_acc: 1
+opt_len: 5
+staleness_bound: 10
+sys_test: false
+semionline_flag: true

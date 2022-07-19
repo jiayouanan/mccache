@@ -1,0 +1,14 @@
+alg_name: Belady
+batch_size: 1000
+cache_scheme: LCC
+csize: 0.2
+dataset_name: Wiki_WrtFreq0.5_thresh10000_rnd0_RSize12_WSize12_Len5000
+dataset_root: /mnt/d/stream_cc_exp/data/YCSB_new
+liveness_bound: 0
+ob_acc: 1
+opt_len: 1
+reorder_flag: false
+reorder_name: Greedy
+staleness_bound: 10
+sys_test: false
+semionline_flag: false

@@ -1,0 +1,11 @@
+dataset_name: Wiki_WrtFreq0.5_thresh10000_rnd0_RSize8_WSize8_Len5000
+func: toYCSB
+max_qry_size: 1664
+multi_size_qry: false
+query_num: 693
+rsize: 8
+tcache_root: /mnt/d/stream_cc_exp/data/YCSB_new
+txn_num: 5000
+wrt_freq: 0.5
+wsize: 8
+ycsb_root: /mnt/d/stream_cc_exp/YCSB/datasets

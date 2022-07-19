@@ -1,0 +1,37 @@
+# Yahoo! Cloud System Benchmark
+# Workload A: Update heavy workload
+#   Application example: Session store recording recent actions
+#                        
+#   Read/update ratio: 50/50
+#   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
+#   Request distribution: zipfian
+#
+#   
+recordcount=1000
+operationcount=1000
+workload=site.ycsb.workloads.TCacheWorkload
+
+readallfields=true
+
+readproportion=0.5
+updateproportion=0.5
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
+zipfianconstant=0.99
+
+# whether using synthetic workload
+syntheticprop=false
+
+rwonlytxnprop=true
+multisizeprop=true
+# querysizefile=/home/will/dbgroup/datasets/YCSB/querysize.txt
+querysizefile=/home/will/dbgroup/datasets/YCSB/datasets/core/querysize.txt
+txnassignprop=true
+# txnsizefile=/home/will/dbgroup/datasets/YCSB/txnflagsize.txt
+txnsizefile=/home/will/dbgroup/datasets/YCSB/datasets/core/txnflagsize.txt
+printkeynum=true
+
+# print_only: print Java PreparedStatement (queries in each transaction)
+PGSQL_PRINT_EXE=print_only

@@ -1,0 +1,11 @@
+dataset_name: Synthetic_WrtFreq0.5_QueryNum1000_QSizeFB_Zipfian1.2_RSize3_WSize5_Len5000
+func: genYCSB
+max_qry_size: 1664
+multi_size_qry: false 
+query_num: 1000
+rsize: 3
+tcache_root: /mnt/d/stream_cc_exp/data/YCSB_new
+txn_num: 5000
+wrt_freq: 0.5
+wsize: 5
+ycsb_root: /mnt/d/stream_cc_exp/YCSB/datasets

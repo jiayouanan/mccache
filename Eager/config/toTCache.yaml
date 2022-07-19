@@ -1,0 +1,11 @@
+dataset_name: Synthetic_WrtFreq0.05_QueryNum1000_QSizeFB_Zipfian0.99_RSize8_WSize8_Len5000_Fieldlength79
+func: toTCache
+max_qry_size: 1664
+multi_size_qry: true
+query_num: 1000
+rsize: 8
+tcache_root: /mnt/d/cc_exp/data/YCSB_new
+txn_num: 5000
+wrt_freq: 0.05
+wsize: 8
+ycsb_root: /mnt/d/cc_exp/YCSB/datasets

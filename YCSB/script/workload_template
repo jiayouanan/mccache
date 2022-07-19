@@ -1,0 +1,36 @@
+recordcount=
+operationcount=40000
+fieldcount=
+fieldlength=
+workload=site.ycsb.workloads.TCacheWorkload
+
+readallfields=true
+
+readproportion=0.5
+updateproportion=0.5
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
+zipfianconstant=0.99
+
+# using synthetic workload
+syntheticprop=
+rwonlytxnprop=true
+multisizeprop=
+loadfromdbprop=false
+
+printkeynum=true
+
+# postgrenosql connection settings
+postgrenosql.url=jdbc:postgresql://localhost:5432/ycsb
+postgrenosql.user=postgres
+postgrenosql.passwd=postgres
+postgrenosql.autocommit=false
+
+# print_only: print Java PreparedStatement (queries in each transaction)
+DB_PRINT_EXE=print_only
+
+datasetdir=/home/will/dbgroup/cc/YCSB/datasets/
+querysizefile=
+txnsizefile=
