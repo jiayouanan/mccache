@@ -180,7 +180,7 @@ docker exec -it hbase-docker bash
 hbase shell
 create 'usertable', 'family', {NAME => 'family', BLOCKCACHE => 'false'}
 ```
-** Note that `hbase-docker` means the container name, you may change it to your computer's corresponding name **.
+**Note that `hbase-docker` means the container name, you should change it to your computer's corresponding name. Otherwise, you may not successfully upload the data items into database.**
 
 ### AWS ECS(EC2)
 
