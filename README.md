@@ -137,6 +137,8 @@ semionline_flag = False
 
 alg_name: oMCP
 
+These scripts output the #dbread result, which largely reflects the throughput result. To evaluate the throughput, we must configure some details regarding Hbase and Redis(Memcached) first. See more below.
+
 ## System configurations
 
 All the system-ralated parameters are set in `config/backend.ini`. You do no need to change them in general.
