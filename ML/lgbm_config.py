@@ -39,7 +39,7 @@ params = {
     'lambda_l2': 0.0,
     'learning_rate': 0.1,
     'objective': 'binary', 
-    'num_iterations': 4000,
+    'num_iterations': 2000, 
     'metric': 'binary_error', #'binary', 'binary_error','auc'
     'num_threads': 4,
     'is_unbalance': 'true'
