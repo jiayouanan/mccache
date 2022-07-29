@@ -203,6 +203,16 @@ The related files are `config/genYCSB.yaml`, `config/toTCache.yaml`, `config/toY
 
 ### **YCSB** 
 
+We should build YCSB first. Run the command:
+```
+mvn -pl site.ycsb:hbase2-binding -am clean package
+mvn -pl site.ycsb:core -am package
+mvn -pl site.ycsb:postgrenosql-binding -am clean package
+```
+
+If it is not successful, check your maven if it is valid.
+
+
    1. **Generate query_size file and transaction_size file for YCSB.**
    
       `querysize.txt`, `txnflagsize.txt` will be saved (YCSB choose specific queries for each transaction).
