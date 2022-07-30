@@ -2,7 +2,7 @@
 
 ## Background
  
-This repository releases the source codes and datasets for mccache paper (Caching with Monotonicity and Consistency).
+This repository releases the source codes and datasets for mccache paper (Making Cache Monotonic and Consistent). Please refer to our full version to get the formal proofs of all the results, additional experiments and the ML model details. Full version link: https://homepages.inf.ed.ac.uk/ycao/MCCfull.pdf
 
 Note that if you want to test the throughput results of cache policies as shown in paper, you have to correctly install and configure the Redis (or Memcached), Hbase and AWS EC2 first (see below for details). However, it is easy to get the #dbread (the number of read operations that are carried out at HBase) results without the system configurations. The results over #dbread indeed reflect the throughput results to a large extent. Intuitively, the smaller the #dbread, the more reads cache node takes. This will enable the database server to take on more transactions requested by clients, resulting in higher throughput. 
 
