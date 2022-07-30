@@ -69,7 +69,7 @@ dataset_root: data/YCSB_new
 fetch_strategy: oldest
 # control the accuracy of ML
 ob_acc: 1
-# control har far procedure OB find obsolete items.
+# control how far procedure OB find obsolete items.
 opt_len: 5
 # s
 staleness_bound: 10
