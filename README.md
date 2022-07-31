@@ -1,6 +1,7 @@
 # Readme for mccache
 
-**Please refer to the [full version](https://homepages.inf.ed.ac.uk/ycao/MCCfull.pdf) of paper to get the formal proofs of all the results, additional experiments and the ML model details**.
+**Please refer to the <font color=red>[full version](https://homepages.inf.ed.ac.uk/ycao/MCCfull.pdf)</font> of paper to get the formal proofs of all the results, additional experiments and the ML model details**.
+
 
 ## Background
  
