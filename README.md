@@ -259,4 +259,16 @@ And see `wiki_trace_preprocess.py` how to process the original data.
    2. For each `piece` of trace, apply appearance thresh filter and perform random sampling over the filtered trace
    3. Generate TCache transaction sequence input from sampled wikitrace based on read-only and write-only transaction size (# of queries in each transaction), write frequency, transaction length.
 
+### **Twitter**
+
+See more details in https://github.com/twitter/cache-trace
+
+We tested with its cluster 14.
+
+### **IBM**
+
+See more details in http://iotta.snia.org/traces/key-value
+
+We used trace 1.
+
 
