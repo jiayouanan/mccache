@@ -122,6 +122,6 @@ print('Total Transactions: {}, Read Transactions: {}, Write Transactions: {}'.fo
 print('unique query number: {}'.format(unique_qry_num))
 print('unique transaction number: {}'.format(unique_txn_num))
 
-aa = data_df.key.value_counts()
-data_df.info()
+# aa = data_df.key.value_counts()
+# data_df.info()
 

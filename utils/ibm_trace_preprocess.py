@@ -130,5 +130,5 @@ print('unique query number: {}'.format(unique_qry_num))
 print('unique transaction number: {}'.format(txn_seq_len))
 
 
-aa = data_df.key.value_counts()
-data_df.info()
+# aa = data_df.key.value_counts()
+# data_df.info()
