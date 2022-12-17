@@ -1,8 +1,5 @@
 # Readme for mccache
 
-**Please refer to the <font color=red>[full version](https://homepages.inf.ed.ac.uk/ycao/MCCfull.pdf)</font> of paper to get the formal proofs of all the results, additional experiments and the ML model details**.
-
-
 ## Background
  
 This repository releases the source codes and datasets for mccache paper (Making Cache Monotonic and Consistent).
